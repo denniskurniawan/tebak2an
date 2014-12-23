@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dennis.tebak2an"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FermentasiActivity"
+            android:label="@string/title_activity_fermentasi" >
+        </activity>
+        <activity
+            android:name=".InduksiActivity"
+            android:label="@string/title_activity_induksi" >
+        </activity>
+        <activity
+            android:name=".JambuActivity"
+            android:label="@string/title_activity_jambu" >
+        </activity>
+        <activity
+            android:name=".KambingActivity"
+            android:label="@string/title_activity_kambing" >
+        </activity>
+        <activity
+            android:name=".KaptenActivity"
+            android:label="@string/title_activity_kapten" >
+        </activity>
+        <activity
+            android:name=".KeramikActivity"
+            android:label="@string/title_activity_keramik" >
+        </activity>
+        <activity
+            android:name=".KeranjangActivity"
+            android:label="@string/title_activity_keranjang" >
+        </activity>
+        <activity
+            android:name=".MariActivity"
+            android:label="@string/title_activity_mari" >
+        </activity>
+        <activity
+            android:name=".OrangActivity"
+            android:label="@string/title_activity_orang" >
+        </activity>
+        <activity
+            android:name=".SelesaiActivity"
+            android:label="@string/title_activity_selesai" >
+        </activity>
+    </application>
+
+</manifest>

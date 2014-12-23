@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tebak2an</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fermentasi">FermentasiActivity</string>
+    <string name="title_activity_induksi">InduksiActivity</string>
+    <string name="title_activity_jambu">JambuActivity</string>
+    <string name="title_activity_kambing">KambingActivity</string>
+    <string name="title_activity_kapten">KaptenActivity</string>
+    <string name="title_activity_keramik">KeramikActivity</string>
+    <string name="title_activity_keranjang">KeranjangActivity</string>
+    <string name="title_activity_mari">MariActivity</string>
+    <string name="title_activity_orang">OrangActivity</string>
+    <string name="title_activity_selesai">SelesaiActivity</string>
+
+</resources>
